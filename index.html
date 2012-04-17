@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>My Preso</title>
+  <title>Ruby ułatwia życie!</title>
 
   <meta name="viewport" content="width=device-width"/>
 
@@ -30,6 +30,10 @@
   <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
   <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
 
+  
+    <link rel="stylesheet" href="file/style.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="file/font-face.css" type="text/css"/>
   
 
   
@@ -75,17 +79,45 @@
 </div>
 
 <div id="slides" class="offscreen" style="display:none;">
-<div class="slide" data-transition="none"><div class="content" ref="one/01_slide/1">
-<h1>My Presentation</h1></div>
-</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/2">
-<h1>Bullet Points</h1>
+<div class="slide" data-transition="none"><div class="content" ref="01.instalacja/01_slide/1">
+<h1>Ruby u&#x142;atwia &#x17C;ycie</h1>
+
+<h2>Marcin Raczkowski</h2>
+
+<h3>Marmot Consulting</h3>
+
+<p><a href="https://github.com/swistak">https://github.com/swistak</a></p></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="01.instalacja/01_slide/2">
+<h1>Linux</h1>
+
+<p>Linux daje trzy mo&#x17C;liwo&#x15B;ci instalacji Ruby:</p>
 
 <ul>
-<li>first point</li>
-<li>second point</li>
-<li>third point</li>
+<li>Z pakiet&#xF3;w</li>
+<li>Przy pomocy RVM</li>
+<li>Ze &#x17A;r&#xF3;de&#x142;</li>
 </ul>
 </div>
+</div><div class="slide" data-transition="none"><div class="content" ref="01.instalacja/01_slide/3">
+<h1>Linux - Pakiety</h1>
+
+<ul>
+<li>apt-get install ruby # Debian/Ubuntu</li>
+<li>yum install ruby # RedHat/CentOS</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content commandline incremental" ref="01.instalacja/01_slide/4">
+<h1>Linux - RVM</h1>
+
+<pre class="sh_shell"><code><code class="command">$ curl -L get.rvm.io | bash -s stable</code>
+<code class="command">$ source ~/.bash_profile</code>
+<code class="command">$ rvm install 1.9.3</code>
+<code class="command">$ rvm 1.9.3</code>
+</code></pre></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="01.instalacja/01_slide/5">
+<h1>Windows</h1>
+
+<p><a href="http://rubyinstaller.org/downloads/">http://rubyinstaller.org/downloads/</a></p></div>
 </div></div>
 
 </body>
