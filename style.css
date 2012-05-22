@@ -8,7 +8,7 @@ body {
     background-size: cover;
     background-image: url(/file/assets/background.jpg);
 
-    font-family: "DejaVuSansBook",Helvetica,Arial,sans-serif;
+    font-family: "DejaVuSansBook",Helvetica,Arial,sans-serif !important;
     line-height: 1.4;
 }
 
@@ -30,12 +30,12 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "DejaVuSansBold",Helvetica,Arial,sans-serif;
+  font-family: "DejaVuSansBold",Helvetica,Arial,sans-serif !important;
   font-weight: normal;
 }
 
 code, pre, .code {
-  font-family: "DejaVuSansMonoBook", Monaco, monospace;
+  font-family: "DejaVuSansMonoBook", Monaco, monospace !important;
 }
 
 .content > p {
@@ -52,6 +52,9 @@ code, pre, .code {
 .blue { color: #33f;}
 .grey { color: #888;}
 
+.code.smaller {
+  font-size: 50%;
+}
 
 
 
