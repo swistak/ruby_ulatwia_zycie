@@ -37,3 +37,4 @@ Linux daje trzy możliwości instalacji Ruby:
 # Windows #
 
 <http://rubyinstaller.org/downloads/>
+<http://railsinstaller.org/>

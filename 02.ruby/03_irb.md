@@ -23,3 +23,16 @@
     _ + pozyczka
     # => 1500.0
 
+!SLIDE code smaller
+# Definiowanie metod #
+
+    @@@ ruby
+    def koszt(kwota, procent_rocznie, miesiecy)
+      pr = 1.0 * procent_rocznie * miesiecy / 12 / 100
+      kwota * pr
+    end
+    # => nil
+    koszt(1000, 12, 2)
+    # => 20.0
+    koszt 10000, 24, 36
+    # => 7200.0
